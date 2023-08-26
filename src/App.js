@@ -15,14 +15,14 @@ const App = () => {
       description: 'Description for Product 1',
       price: '$19.99',
       image: Images.blue,
-      isOnSale: true, // Add this property for on-sale products
+      isOnSale: true, 
     },
     {
       name: 'Product 2',
       description: 'Description for Product 2',
       price: '$24.99',
       image: Images.red,
-      isOnSale: false, // Add this property for non-sale products
+      isOnSale: false,
       newProduct:true,
     },
     {
@@ -31,7 +31,7 @@ const App = () => {
       price: '$29.99',
       newPrice:"$35.65",
       image: Images.green,
-      isOnSale: true, // Add this property for on-sale products
+      isOnSale: true, 
     },
     // Add more products as needed
   ];
